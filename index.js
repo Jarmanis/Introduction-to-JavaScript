@@ -103,7 +103,7 @@ function dogYears(){
     return myAge * 7;
 }
 let result2 = dogYears(myAge)
-console.log(result2)
+console.log(result2);
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -226,12 +226,59 @@ Using the grade function below do the following:
    60-69 should return 'you got a D'
    below should return 'you got an F'
 */
-  
-function grade(/*Your Code here */){
+var gradeA = 'you got an A';
+var gradeB = 'you got an B';
+var gradeC = 'you got an C';
+var gradeD = 'you got an D';
+var gradeF = 'you got an F';
+var myGrade = Math.floor(Math.random() * 101);
+function grade(myGrade){
   /*Your Code here */
+  if (90 > myGrade < 100 )
+  {
+    console.log(gradeA)
   }
-  
-  
+  if (80 > myGrade < 89 )
+  {
+    console.log(gradeB)
+  }
+  if (70 > myGrade < 79 )
+  {
+    console.log(gradeC)
+  }
+  if (60 > myGrade < 69 )
+  {
+    console.log(gradeD)
+  }
+  else (myGrade)
+  {
+    console.log(gradeF)
+  }
+  }
+
+  let result3 = grade(myGrade);
+  console.log(result3);
+
+  // if (90 > myGrade < 100 )
+  // {
+  //   console.log(gradeA)
+  // }
+  // if (80 > myGrade < 89 )
+  // {
+  //   console.log(gradeB)
+  // }
+  // if (70 > myGrade < 79 )
+  // {
+  //   console.log(gradeC)
+  // }
+  // if (60 > myGrade < 69 )
+  // {
+  //   console.log(gradeD)
+  // }
+  // else (myGrade)
+  // {
+  //   console.log(gradeD)
+  // }
 
 /*💪💪💪💪💪💪💪💪💪💪 Stretch 💪💪💪💪💪💪💪💪💪💪*/
 

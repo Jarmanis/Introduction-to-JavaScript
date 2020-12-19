@@ -17,7 +17,16 @@ Do the following:
 
    HINT: no function required
 */
+var votingAge = 22;
 
+if( votingAge >= 18 )
+{
+  console.log('true');
+}
+else 
+{
+  console.log('false')
+}
 
 
 /*
@@ -31,8 +40,14 @@ Do the following:
    HINT: no function required
 */
 
+var keyOne = 5;
+var keyTwo = 7;
 
-
+if ( keyTwo > keyOne)
+{
+  keyOne++;
+  console.log(keyOne);
+}
 
 
 /*
@@ -46,7 +61,9 @@ Do the following:
    HINT: look up the Number method
 */
 
-
+var year = "1999";
+var year = parseInt(year, 10);
+console.log(year);
 
 
 /*
@@ -58,9 +75,17 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
-  }
+var NumberA = 5;
+var NumberB = 9;
+function multiply()
+{
+  return NumberA * NumberB;
+}
+
+let result1 = multiply( NumberA, NumberB );
+
+console.log(result1);
+
 
 
 

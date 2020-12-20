@@ -255,7 +255,7 @@ function grade(myGrade){
     console.log(gradeF)
   }
   }
-
+   
   let result3 = grade(myGrade);
   console.log(result3);
 
